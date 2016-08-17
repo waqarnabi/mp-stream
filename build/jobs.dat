@@ -1,0 +1,37 @@
+./build.pl -tar SDACCEL -p build160516 -k COPY  -w INT    -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+./build.pl -tar SDACCEL -p build160516 -k MUL   -w INT    -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+./build.pl -tar SDACCEL -p build160516 -k ADD   -w INT    -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+./build.pl -tar SDACCEL -p build160516 -k TRIAD -w INT    -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+./build.pl -tar SDACCEL -p build160516 -k COPY  -w DOUBLE -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+./build.pl -tar SDACCEL -p build160516 -k MUL   -w DOUBLE -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+
+./build.pl -tar SDACCEL -p build160516 -k ADD   -w DOUBLE -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+./build.pl -tar SDACCEL -p build160516 -k TRIAD -w DOUBLE -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+./build.pl -tar AOCL    -p build160516 -k COPY  -w INT    -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+./build.pl -tar AOCL    -p build160516 -k MUL   -w INT    -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+
+./build.pl -tar AOCL    -p build160516 -k ADD   -w INT    -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+./build.pl -tar AOCL    -p build160516 -k TRIAD -w INT    -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+./build.pl -tar AOCL    -p build160516 -k COPY  -w DOUBLE -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+
+./build.pl -tar AOCL    -p build160516 -k MUL   -w DOUBLE -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+./build.pl -tar AOCL    -p build160516 -k ADD   -w DOUBLE -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+./build.pl -tar AOCL    -p build160516 -k TRIAD -w DOUBLE -d 1024 -r 1,0,0 -v 1 -l KERNEL -n NESTED_LOOPING -m all -f hw 
+
+./build.pl -tar CPU     -p build160516 -k COPY  -w INT    -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar CPU     -p build160516 -k MUL   -w INT    -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar CPU     -p build160516 -k ADD   -w INT    -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar CPU     -p build160516 -k TRIAD -w INT    -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar CPU     -p build160516 -k COPY  -w DOUBLE -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar CPU     -p build160516 -k MUL   -w DOUBLE -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar CPU     -p build160516 -k ADD   -w DOUBLE -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar CPU     -p build160516 -k TRIAD -w DOUBLE -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+
+./build.pl -tar GPU     -p build160516 -k COPY  -w INT    -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar GPU     -p build160516 -k MUL   -w INT    -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar GPU     -p build160516 -k ADD   -w INT    -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar GPU     -p build160516 -k TRIAD -w INT    -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar GPU     -p build160516 -k COPY  -w DOUBLE -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar GPU     -p build160516 -k MUL   -w DOUBLE -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar GPU     -p build160516 -k ADD   -w DOUBLE -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 
+./build.pl -tar GPU     -p build160516 -k TRIAD -w DOUBLE -d 1024          -v 1 -l API    -n FLAT_LOOPING -m all -f hw 

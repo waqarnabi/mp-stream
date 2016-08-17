@@ -1,0 +1,31 @@
+Waqar Nabi; Dec 15, 2015; Glasgow
+---------------------------------
+
+RUN:
+---
+
+1. cd ./build
+2. type ./build.pl -h
+
+
+DESCRIPTION:
+----------------
+1. This a stream benchmark for measuring memroy bandwidth on  
+multiple OpenCL devices
+
+  a) AOCL (Nallatech on BOLAMA)
+  b) SDACCEL (Alpha Data on BOLAMA)
+  c) GPU (Nvidia on KANTON)
+  d) CPU (Intel Xeon on BOLAMA) 
+
+2. /device
+common kernel file for all targets
+
+3. /host-all
+common host file for all targets. Target specific choices are made by Pre-Processor
+
+4. /build-xxx
+target specific builds are placed in theor respective folders; every build is placed into a unique sub-folder named from time stampe and 
+application parameters
+
+

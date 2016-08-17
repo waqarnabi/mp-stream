@@ -1,0 +1,76 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest} % Allows to place the legend below plot
+\usetikzlibrary{patterns}
+\begin{document}
+
+\begin{center}
+
+%-------------------------------------------------1
+\begin{tikzpicture}[baseline,trim axis left]    
+\pgfkeys{
+    /pgf/number format/fixed,
+    /pgf/number format/precision=2, 
+    /pgf/number format/fixed zerofill=true
+}
+    \begin{loglogaxis}[
+      %nodes near coords,
+      point meta=rawy,
+      every node near coord/.style={font=\tiny},
+      every node near coord/.append style={yshift=-0.5cm},   % yshift can be adjusted 
+      title=Memory bandwidth for COPY kernel with varying array sizes and contiguity,
+      xlabel={Array size (MB)},
+%      grid=both,
+%      grid=minor,
+      ymajorgrids,
+      xmajorgrids,
+      minor tick num=2,
+%      xtick={16, 32, 64, 128, 256, 512, 1024, 2046, 4096},
+      xmin = 0,
+      ymin = 0,
+      log ticks with fixed point,
+      ylabel={Global Memory B'width (GB/s)},
+      width=1.0\linewidth,
+      legend style = {
+              at = {(0.98,0.02)},
+              legend columns=1,
+              legend cell align=left,
+              anchor = south east,
+              font = \tiny,
+      }
+%      ytick={16,512,1024,2048,4096},
+    ]
+    \addplot+[nodes near coords]table[x=array-size,y=aocl-bolama-contig     ,col sep=comma,] {20160515_copykernel_alltargets_contig_vs_strided.csv};
+    \addplot+[nodes near coords]table[x=array-size,y=sdaccel-bolama-contig  ,col sep=comma,] {20160515_copykernel_alltargets_contig_vs_strided.csv};
+    \addplot+[nodes near coords]table[x=array-size,y=cpu-bolama-contig      ,col sep=comma,] {20160515_copykernel_alltargets_contig_vs_strided.csv};
+    \addplot+[nodes near coords]table[x=array-size,y=gpu-kanton-contig      ,col sep=comma,] {20160515_copykernel_alltargets_contig_vs_strided.csv};
+    \addplot+[nodes near coords]table[x=array-size,y=aocl-bolama-strided    ,col sep=comma,] {20160515_copykernel_alltargets_contig_vs_strided.csv};
+    \addplot+[nodes near coords]table[x=array-size,y=sdaccel-bolama-strided ,col sep=comma,] {20160515_copykernel_alltargets_contig_vs_strided.csv};
+    \addplot+[nodes near coords]table[x=array-size,y=cpu-bolama-strided     ,col sep=comma,] {20160515_copykernel_alltargets_contig_vs_strided.csv};
+    \addplot+[nodes near coords]table[x=array-size,y=gpu-kanton-strided     ,col sep=comma,] {20160515_copykernel_alltargets_contig_vs_strided.csv};
+
+    \pgfplotsset{cycle list shift=-4} % Goes four styles back
+    
+    \addplot+[dashed, mark=none]table[x=array-size,y=aocl-bolama-peak   ,col sep=comma,] {20160515_copykernel_alltargets_contig_vs_strided.csv};
+    \addplot+[dashed, mark=none]table[x=array-size,y=sdaccel-bolama-peak,col sep=comma,] {20160515_copykernel_alltargets_contig_vs_strided.csv};
+    \addplot+[dashed, mark=none]table[x=array-size,y=cpu-bolama-peak    ,col sep=comma,] {20160515_copykernel_alltargets_contig_vs_strided.csv};
+    \addplot+[dashed, mark=none]table[x=array-size,y=gpu-kanton-peak    ,col sep=comma,] {20160515_copykernel_alltargets_contig_vs_strided.csv};
+
+    
+    \legend{   aocl-contig     
+              ,sdaccel-contig  
+              ,cpu-contig      
+              ,gpu-contig      
+              ,aocl-strided    
+              ,sdaccel-strided 
+              ,cpu-strided     
+              ,gpu-strided     
+            }
+
+    \end{loglogaxis}
+  \end{tikzpicture}
+\end{center}
+
+
+\end{document}

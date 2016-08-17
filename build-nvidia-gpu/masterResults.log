@@ -1,0 +1,5026 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+BATCH 160429
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+=======================================
+  Experiment timestamp =  124.112931
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112931-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-16-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             159.1        128.2        148.0         0.06    0.000014     0.000013     0.000016
+
+
+
+=======================================
+  Experiment timestamp =  124.112932
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112932-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-32-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            1041.2        747.0        972.9         0.09    0.000008     0.000008     0.000011
+
+
+
+=======================================
+  Experiment timestamp =  124.112933
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112933-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-64-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            4164.8       3272.4       3795.6         0.08    0.000009     0.000008     0.000010
+
+
+
+=======================================
+  Experiment timestamp =  124.112934
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112934-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-128-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           16659.3      11951.2      15094.5         0.09    0.000009     0.000008     0.000011
+
+
+
+=======================================
+  Experiment timestamp =  124.112935
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112935-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-256-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           57869.0      43980.5      51328.6         0.06    0.000010     0.000009     0.000012
+
+
+
+=======================================
+  Experiment timestamp =  124.112936
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112936-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-512-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          123888.6     104715.4     115498.1         0.05    0.000018     0.000017     0.000020
+
+
+
+=======================================
+  Experiment timestamp =  124.112937
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112937-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          183251.9     167544.6     177888.0         0.02    0.000047     0.000046     0.000050
+
+
+
+=======================================
+  Experiment timestamp =  124.112938
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112938-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-2048-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          211000.7     205756.6     209430.8         0.01    0.000160     0.000159     0.000163
+
+
+
+=======================================
+  Experiment timestamp =  124.112939
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112939-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          219730.7     217523.2     218764.4         0.00    0.000614     0.000611     0.000617
+
+
+
+=======================================
+  Experiment timestamp =  124.112940
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112940-build160429-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-16-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.112942
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112942-build160429-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-32-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.112943
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112943-build160429-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-64-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.112944
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112944-build160429-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-128-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.112945
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112945-build160429-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-256-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.112946
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112946-build160429-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-512-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.112947
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112947-build160429-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.112948
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112948-build160429-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-2048-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.112949
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112949-build160429-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.112950
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112950-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-16-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             156.2        136.3        144.1         0.04    0.000014     0.000013     0.000015
+
+
+
+=======================================
+  Experiment timestamp =  124.112952
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112952-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-32-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            1041.2        818.1        922.1         0.05    0.000009     0.000008     0.000010
+
+
+
+=======================================
+  Experiment timestamp =  124.112953
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112953-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-64-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            4164.8       2694.9       3725.2         0.11    0.000009     0.000008     0.000012
+
+
+
+=======================================
+  Experiment timestamp =  124.112954
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112954-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-128-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           16659.3      11951.2      14921.9         0.09    0.000009     0.000008     0.000011
+
+
+
+=======================================
+  Experiment timestamp =  124.112955
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112955-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-256-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           52357.7      43980.5      49621.7         0.05    0.000011     0.000010     0.000012
+
+
+
+=======================================
+  Experiment timestamp =  124.112956
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112956-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-512-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          123888.6     104715.4     116140.2         0.06    0.000018     0.000017     0.000020
+
+
+
+=======================================
+  Experiment timestamp =  124.112957
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112957-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          183251.9     170797.9     178648.6         0.02    0.000047     0.000046     0.000049
+
+
+
+=======================================
+  Experiment timestamp =  124.112958
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112958-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-2048-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          211000.7     203377.9     208760.4         0.01    0.000161     0.000159     0.000165
+
+
+
+=======================================
+  Experiment timestamp =  124.112959
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.112959-build160429-COPY-INT1-APILooping-FLAT_LOOPING-RW-4096-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          219388.1     217523.2     218934.6         0.00    0.000613     0.000612     0.000617
+
+
+
+=======================================
+  Experiment timestamp =  124.11300
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.11300-build160429-COPY-INT2-APILooping-FLAT_LOOPING-RW-16-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.11301
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.11301-build160429-COPY-INT2-APILooping-FLAT_LOOPING-RW-32-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.11303
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.11303-build160429-COPY-INT2-APILooping-FLAT_LOOPING-RW-64-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.11304
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.11304-build160429-COPY-INT2-APILooping-FLAT_LOOPING-RW-128-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.11305
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.11305-build160429-COPY-INT2-APILooping-FLAT_LOOPING-RW-256-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.11306
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.11306-build160429-COPY-INT2-APILooping-FLAT_LOOPING-RW-512-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.11307
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.11307-build160429-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.11308
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.11308-build160429-COPY-INT2-APILooping-FLAT_LOOPING-RW-2048-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.11309
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.11309-build160429-COPY-INT2-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113010
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113010-build160429-COPY-INT4-APILooping-FLAT_LOOPING-RW-16-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113011
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113011-build160429-COPY-INT4-APILooping-FLAT_LOOPING-RW-32-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113012
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113012-build160429-COPY-INT4-APILooping-FLAT_LOOPING-RW-64-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113013
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113013-build160429-COPY-INT4-APILooping-FLAT_LOOPING-RW-128-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113015
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113015-build160429-COPY-INT4-APILooping-FLAT_LOOPING-RW-256-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113016
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113016-build160429-COPY-INT4-APILooping-FLAT_LOOPING-RW-512-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113017
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113017-build160429-COPY-INT4-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113018
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113018-build160429-COPY-INT4-APILooping-FLAT_LOOPING-RW-2048-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113019
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113019-build160429-COPY-INT4-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113020
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113020-build160429-COPY-INT8-APILooping-FLAT_LOOPING-RW-16-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113021
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113021-build160429-COPY-INT8-APILooping-FLAT_LOOPING-RW-32-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113022
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113022-build160429-COPY-INT8-APILooping-FLAT_LOOPING-RW-64-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113023
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113023-build160429-COPY-INT8-APILooping-FLAT_LOOPING-RW-128-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113024
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113024-build160429-COPY-INT8-APILooping-FLAT_LOOPING-RW-256-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113025
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113025-build160429-COPY-INT8-APILooping-FLAT_LOOPING-RW-512-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113026
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113026-build160429-COPY-INT8-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113028
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113028-build160429-COPY-INT8-APILooping-FLAT_LOOPING-RW-2048-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113029
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113029-build160429-COPY-INT8-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113030
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113030-build160429-COPY-INT16-APILooping-FLAT_LOOPING-RW-16-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113031
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113031-build160429-COPY-INT16-APILooping-FLAT_LOOPING-RW-32-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113032
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113032-build160429-COPY-INT16-APILooping-FLAT_LOOPING-RW-64-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113033
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113033-build160429-COPY-INT16-APILooping-FLAT_LOOPING-RW-128-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113034
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113034-build160429-COPY-INT16-APILooping-FLAT_LOOPING-RW-256-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113035
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113035-build160429-COPY-INT16-APILooping-FLAT_LOOPING-RW-512-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113036
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113036-build160429-COPY-INT16-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113037
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113037-build160429-COPY-INT16-APILooping-FLAT_LOOPING-RW-2048-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.113039
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160429 
+targerDir              = build-GPU-124.113039-build160429-COPY-INT16-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.132015
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.132015-TEST-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          182302.4     171631.1     178696.4         0.02    0.000047     0.000046     0.000049
+
+
+
+=======================================
+  Experiment timestamp =  124.132023
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.132023-TEST-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.132035
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.132035-TEST-COPY-INT4-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.132054
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = KERNEL
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.132054-TEST-COPY-INT2-KERNELLooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.13216
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = KERNEL
+NESTING                = NESTED_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.13216-TEST-COPY-INT2-KERNELLooping-NESTED_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.14938
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = FLAT
+NESTING                = NESTED_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.14938-TEST-COPY-INT2-FLATLooping-NESTED_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 1
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.14957
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.14957-TEST-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 1
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.141443
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.141443-TEST-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 1
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.141723
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.141723-TEST-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 1
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.141736
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.141736-TEST-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 1
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          322792.4     270649.0     301943.6         0.05    0.000028     0.000026     0.000031
+
+
+
+=======================================
+  Experiment timestamp =  124.141752
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.141752-TEST-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 1
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.141820
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = KERNEL
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.141820-TEST-COPY-INT2-KERNELLooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 1
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.141833
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = KERNEL
+NESTING                = NESTED_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.141833-TEST-COPY-INT2-KERNELLooping-NESTED_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 1
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.14191
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.14191-TEST-COPY-INT4-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 1
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.14199
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.14199-TEST-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 1
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          183251.9     170797.9     180092.4         0.02    0.000047     0.000046     0.000049
+
+
+
+=======================================
+  Experiment timestamp =  124.141919
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.141919-TEST-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 1
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.141939
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.141939-TEST-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 1
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.141950
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.141950-TEST-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.141955
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-124.141955-TEST-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.164232
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.164232-stream-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          186160.7     170797.9     179705.1         0.02    0.000047     0.000045     0.000049
+
+
+
+=======================================
+  Experiment timestamp =  124.164329
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.164329-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.164343
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.164343-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.164349
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.164349-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.16515
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.16515-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          205756.6     191219.4     199732.0         0.02    0.000042     0.000041     0.000044
+
+
+
+=======================================
+  Experiment timestamp =  124.165112
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165112-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          204560.3     190185.8     198486.7         0.02    0.000042     0.000041     0.000044
+
+
+
+=======================================
+  Experiment timestamp =  124.165115
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165115-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          204560.3     194388.8     198722.7         0.01    0.000042     0.000041     0.000043
+
+
+
+=======================================
+  Experiment timestamp =  124.165547
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165547-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          204560.3     194388.8     198959.2         0.01    0.000042     0.000041     0.000043
+
+
+
+=======================================
+  Experiment timestamp =  124.165552
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165552-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          209430.8     182302.4     198722.7         0.03    0.000042     0.000040     0.000046
+
+
+
+=======================================
+  Experiment timestamp =  124.16570
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.16570-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          204560.3     191219.4     198016.3         0.02    0.000042     0.000041     0.000044
+
+
+
+=======================================
+  Experiment timestamp =  124.16575
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.16575-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          210684.9     190185.8     199971.0         0.03    0.000042     0.000040     0.000044
+
+
+
+=======================================
+  Experiment timestamp =  124.165716
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165716-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          204560.3     191219.4     198310.0         0.02    0.000042     0.000041     0.000044
+
+
+
+=======================================
+  Experiment timestamp =  124.165723
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165723-stream-COPY-INT8-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.165745
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165745-stream-COPY-INT8-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.165752
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165752-stream-COPY-INT8-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.165756
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165756-stream-COPY-INT8-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.165815
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165815-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          209430.8     191219.4     198722.7         0.02    0.000042     0.000040     0.000044
+
+
+
+=======================================
+  Experiment timestamp =  124.165818
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165818-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          204560.3     186160.7     197256.7         0.02    0.000043     0.000041     0.000045
+
+
+
+=======================================
+  Experiment timestamp =  124.165826
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165826-stream-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.165843
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165843-stream-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.165923
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165923-stream-COPY-INT4-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.165929
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.165929-stream-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.17019
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.17019-stream-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          183251.9     174180.1     178457.8         0.01    0.000047     0.000046     0.000048
+
+
+
+=======================================
+  Experiment timestamp =  124.17026
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.17026-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.17034
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.17034-stream-COPY-INT4-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.17044
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.17044-stream-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.1718
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.1718-stream-COPY-INT4-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+
+
+
+
+=======================================
+  Experiment timestamp =  124.17120
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.17120-stream-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          182302.4     175046.6     179319.5         0.02    0.000047     0.000046     0.000048
+
+
+
+=======================================
+  Experiment timestamp =  124.17123
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.17123-stream-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          186160.7     171631.1     180921.0         0.02    0.000046     0.000045     0.000049
+
+
+
+=======================================
+  Experiment timestamp =  124.17125
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.17125-stream-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          183251.9     175046.6     179127.3         0.01    0.000047     0.000046     0.000048
+
+
+
+=======================================
+  Experiment timestamp =  124.17129
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = stream 
+targerDir              = build-GPU-124.17129-stream-COPY-INT4-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-cpu_emu
+logresults             = 
+
+Bandwidth Results:
+-------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+BATCH 160510
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+=======================================
+  Experiment timestamp =  130.174621
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174621-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-16-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             148.1        136.3        143.0         0.03    0.000014     0.000014     0.000015
+
+
+
+=======================================
+  Experiment timestamp =  130.174622
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174622-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-32-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            1041.2        818.1        926.0         0.06    0.000009     0.000008     0.000010
+
+
+
+=======================================
+  Experiment timestamp =  130.174624
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174624-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-64-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            4164.8       3272.4       3704.0         0.06    0.000009     0.000008     0.000010
+
+
+
+=======================================
+  Experiment timestamp =  130.174625
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174625-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-128-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           16659.3      13089.4      14649.9         0.06    0.000009     0.000008     0.000010
+
+
+
+=======================================
+  Experiment timestamp =  130.174626
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174626-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-256-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           52357.7      43118.1      50278.5         0.06    0.000010     0.000010     0.000012
+
+
+
+=======================================
+  Experiment timestamp =  130.174628
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174628-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-512-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          117281.2     104715.4     112542.6         0.03    0.000019     0.000018     0.000020
+
+
+
+=======================================
+  Experiment timestamp =  130.174629
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174629-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          182302.4     170797.9     178696.4         0.02    0.000047     0.000046     0.000049
+
+
+
+=======================================
+  Experiment timestamp =  130.174630
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174630-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-2048-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          211000.7     208191.6     209578.5         0.00    0.000160     0.000159     0.000161
+
+
+
+=======================================
+  Experiment timestamp =  130.174631
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174631-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          218961.5     216519.2     218634.7         0.00    0.000614     0.000613     0.000620
+
+
+
+=======================================
+  Experiment timestamp =  130.174633
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174633-build160510-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-16-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             296.2        186.7        283.1         0.12    0.000014     0.000014     0.000022
+
+
+
+=======================================
+  Experiment timestamp =  130.174634
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174634-build160510-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-32-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            1857.3       1636.2       1769.2         0.05    0.000009     0.000009     0.000010
+
+
+
+=======================================
+  Experiment timestamp =  130.174636
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174636-build160510-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-64-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            8329.6       4739.3       7115.4         0.12    0.000009     0.000008     0.000014
+
+
+
+=======================================
+  Experiment timestamp =  130.174637
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174637-build160510-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-128-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           29716.5      26178.8      28154.6         0.05    0.000009     0.000009     0.000010
+
+
+
+=======================================
+  Experiment timestamp =  130.174638
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174638-build160510-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-256-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          104715.4      86236.2      95282.6         0.04    0.000011     0.000010     0.000012
+
+
+
+=======================================
+  Experiment timestamp =  130.174640
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174640-build160510-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-512-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          167544.6     155683.1     162970.0         0.02    0.000026     0.000025     0.000027
+
+
+
+=======================================
+  Experiment timestamp =  130.174641
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174641-build160510-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          224104.3     214538.9     220119.5         0.01    0.000076     0.000075     0.000078
+
+
+
+=======================================
+  Experiment timestamp =  130.174642
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174642-build160510-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-2048-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          232048.6     227546.5     230538.2         0.00    0.000291     0.000289     0.000295
+
+
+
+=======================================
+  Experiment timestamp =  130.174644
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = DOUBLE
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174644-build160510-COPY-DOUBLE1-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          234416.0     232383.9     233197.1         0.00    0.001151     0.001145     0.001155
+
+
+
+=======================================
+  Experiment timestamp =  130.174645
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174645-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-16-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             145.6         62.2        130.6         0.26    0.000016     0.000014     0.000033
+
+
+
+=======================================
+  Experiment timestamp =  130.174647
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174647-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-32-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             687.2        592.4        643.2         0.04    0.000013     0.000012     0.000014
+
+
+
+=======================================
+  Experiment timestamp =  130.174648
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174648-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-64-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            2748.8       1808.4       2510.9         0.10    0.000013     0.000012     0.000018
+
+
+
+=======================================
+  Experiment timestamp =  130.174649
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174649-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-128-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            8205.3       5975.6       7760.3         0.08    0.000017     0.000016     0.000022
+
+
+
+=======================================
+  Experiment timestamp =  130.174651
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174651-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-256-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           19460.4      17452.6      18586.1         0.02    0.000028     0.000027     0.000030
+
+
+
+=======================================
+  Experiment timestamp =  130.174652
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174652-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-512-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           27574.0      26574.3      27232.5         0.01    0.000077     0.000076     0.000079
+
+
+
+=======================================
+  Experiment timestamp =  130.174653
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174653-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-1024-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           30279.1      29944.1      30084.3         0.00    0.000279     0.000277     0.000280
+
+
+
+=======================================
+  Experiment timestamp =  130.174655
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174655-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-2048-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           30337.9      30175.3      30237.7         0.00    0.001110     0.001106     0.001112
+
+
+
+=======================================
+  Experiment timestamp =  130.174656
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174656-build160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-4096-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           28078.7      27897.8      27976.5         0.00    0.004798     0.004780     0.004811
+
+
+
+=======================================
+  Experiment timestamp =  130.174658
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174658-build160510-COPY-INT2-APILooping-FLAT_LOOPING-RW-16-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             138.5        128.2        135.6         0.02    0.000015     0.000015     0.000016
+
+
+
+=======================================
+  Experiment timestamp =  130.174659
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174659-build160510-COPY-INT2-APILooping-FLAT_LOOPING-RW-32-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             687.2        624.7        665.5         0.04    0.000012     0.000012     0.000013
+
+
+
+=======================================
+  Experiment timestamp =  130.17470
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.17470-build160510-COPY-INT2-APILooping-FLAT_LOOPING-RW-64-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            4164.8       3272.4       3709.3         0.06    0.000009     0.000008     0.000010
+
+
+
+=======================================
+  Experiment timestamp =  130.17472
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.17472-build160510-COPY-INT2-APILooping-FLAT_LOOPING-RW-128-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           16169.3      13089.4      14568.1         0.05    0.000009     0.000008     0.000010
+
+
+
+=======================================
+  Experiment timestamp =  130.17473
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.17473-build160510-COPY-INT2-APILooping-FLAT_LOOPING-RW-256-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           59433.1      39982.2      52423.4         0.08    0.000010     0.000009     0.000013
+
+
+
+=======================================
+  Experiment timestamp =  130.17474
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.17474-build160510-COPY-INT2-APILooping-FLAT_LOOPING-RW-512-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          123888.6     115738.1     121457.7         0.02    0.000017     0.000017     0.000018
+
+
+
+=======================================
+  Experiment timestamp =  130.17476
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.17476-build160510-COPY-INT2-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          209430.8     186160.7     198959.2         0.03    0.000042     0.000040     0.000045
+
+
+
+=======================================
+  Experiment timestamp =  130.17477
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.17477-build160510-COPY-INT2-APILooping-FLAT_LOOPING-RW-2048-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          231476.1     225180.0     227536.8         0.01    0.000147     0.000145     0.000149
+
+
+
+=======================================
+  Experiment timestamp =  130.17478
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 2
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.17478-build160510-COPY-INT2-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          234269.6     231001.2     232532.9         0.00    0.000577     0.000573     0.000581
+
+
+
+=======================================
+  Experiment timestamp =  130.174710
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174710-build160510-COPY-INT4-APILooping-FLAT_LOOPING-RW-16-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             136.3        119.3        131.0         0.04    0.000016     0.000015     0.000017
+
+
+
+=======================================
+  Experiment timestamp =  130.174711
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174711-build160510-COPY-INT4-APILooping-FLAT_LOOPING-RW-32-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             592.4        545.4        578.8         0.03    0.000014     0.000014     0.000015
+
+
+
+=======================================
+  Experiment timestamp =  130.174712
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174712-build160510-COPY-INT4-APILooping-FLAT_LOOPING-RW-64-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            3714.6       3272.4       3519.3         0.05    0.000009     0.000009     0.000010
+
+
+
+=======================================
+  Experiment timestamp =  130.174714
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174714-build160510-COPY-INT4-APILooping-FLAT_LOOPING-RW-128-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           14858.3      13089.4      14077.3         0.05    0.000009     0.000009     0.000010
+
+
+
+=======================================
+  Experiment timestamp =  130.174715
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174715-build160510-COPY-INT4-APILooping-FLAT_LOOPING-RW-256-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           59433.1      46787.7      52423.4         0.04    0.000010     0.000009     0.000011
+
+
+
+=======================================
+  Experiment timestamp =  130.174716
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174716-build160510-COPY-INT4-APILooping-FLAT_LOOPING-RW-512-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          139620.5     115738.1     128855.6         0.05    0.000016     0.000015     0.000018
+
+
+
+=======================================
+  Experiment timestamp =  130.174718
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174718-build160510-COPY-INT4-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          210684.9     195468.7     205883.3         0.02    0.000041     0.000040     0.000043
+
+
+
+=======================================
+  Experiment timestamp =  130.174719
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174719-build160510-COPY-INT4-APILooping-FLAT_LOOPING-RW-2048-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          226995.9     222334.1     225047.3         0.00    0.000149     0.000148     0.000151
+
+
+
+=======================================
+  Experiment timestamp =  130.174720
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 4
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174720-build160510-COPY-INT4-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          231762.0     227179.2     230468.6         0.00    0.000582     0.000579     0.000591
+
+
+
+=======================================
+  Experiment timestamp =  130.174722
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174722-build160510-COPY-INT8-APILooping-FLAT_LOOPING-RW-16-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             136.3         58.4        120.1         0.25    0.000017     0.000015     0.000035
+
+
+
+=======================================
+  Experiment timestamp =  130.174723
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174723-build160510-COPY-INT8-APILooping-FLAT_LOOPING-RW-32-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             545.4        483.9        526.1         0.04    0.000016     0.000015     0.000017
+
+
+
+=======================================
+  Experiment timestamp =  130.174724
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174724-build160510-COPY-INT8-APILooping-FLAT_LOOPING-RW-64-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            2545.2       2329.5       2402.3         0.04    0.000014     0.000013     0.000014
+
+
+
+=======================================
+  Experiment timestamp =  130.174726
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174726-build160510-COPY-INT8-APILooping-FLAT_LOOPING-RW-128-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           10995.1       9995.6      10593.7         0.04    0.000012     0.000012     0.000013
+
+
+
+=======================================
+  Experiment timestamp =  130.174727
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174727-build160510-COPY-INT8-APILooping-FLAT_LOOPING-RW-256-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           43980.5      39982.2      41491.0         0.04    0.000013     0.000012     0.000013
+
+
+
+=======================================
+  Experiment timestamp =  130.174729
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174729-build160510-COPY-INT8-APILooping-FLAT_LOOPING-RW-512-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          105977.0      80698.1     100860.5         0.07    0.000021     0.000020     0.000026
+
+
+
+=======================================
+  Experiment timestamp =  130.174730
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174730-build160510-COPY-INT8-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          186160.7     174180.1     179512.1         0.02    0.000047     0.000045     0.000048
+
+
+
+=======================================
+  Experiment timestamp =  130.174731
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174731-build160510-COPY-INT8-APILooping-FLAT_LOOPING-RW-2048-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          219217.3     213886.8     216484.2         0.01    0.000155     0.000153     0.000157
+
+
+
+=======================================
+  Experiment timestamp =  130.174732
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 8
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174732-build160510-COPY-INT8-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          229869.3     227087.5     228362.6         0.00    0.000588     0.000584     0.000591
+
+
+
+=======================================
+  Experiment timestamp =  130.174734
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174734-build160510-COPY-INT16-APILooping-FLAT_LOOPING-RW-16-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             128.2         81.8        120.0         0.12    0.000017     0.000016     0.000025
+
+
+
+=======================================
+  Experiment timestamp =  130.174735
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 32
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174735-build160510-COPY-INT16-APILooping-FLAT_LOOPING-RW-32-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:             512.8        264.3        457.8         0.21    0.000018     0.000016     0.000031
+
+
+
+=======================================
+  Experiment timestamp =  130.174736
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 64
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174736-build160510-COPY-INT16-APILooping-FLAT_LOOPING-RW-64-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            2051.3       1718.0       1970.8         0.05    0.000017     0.000016     0.000019
+
+
+
+=======================================
+  Experiment timestamp =  130.174738
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 128
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174738-build160510-COPY-INT16-APILooping-FLAT_LOOPING-RW-128-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            7743.0       6871.9       7304.4         0.03    0.000018     0.000017     0.000019
+
+
+
+=======================================
+  Experiment timestamp =  130.174739
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 256
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174739-build160510-COPY-INT16-APILooping-FLAT_LOOPING-RW-256-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           30542.0      27487.8      28794.9         0.03    0.000018     0.000017     0.000019
+
+
+
+=======================================
+  Experiment timestamp =  130.174741
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 512
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174741-build160510-COPY-INT16-APILooping-FLAT_LOOPING-RW-512-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           77841.5      65642.5      70936.2         0.04    0.000030     0.000027     0.000032
+
+
+
+=======================================
+  Experiment timestamp =  130.174742
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 1024
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174742-build160510-COPY-INT16-APILooping-FLAT_LOOPING-RW-1024-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          125211.3     114981.6     120191.1         0.02    0.000070     0.000067     0.000073
+
+
+
+=======================================
+  Experiment timestamp =  130.174743
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174743-build160510-COPY-INT16-APILooping-FLAT_LOOPING-RW-2048-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          147833.5     143317.2     145556.2         0.01    0.000231     0.000227     0.000234
+
+
+
+=======================================
+  Experiment timestamp =  130.174744
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 16
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = build160510 
+targerDir              = build-GPU-130.174744-build160510-COPY-INT16-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          155168.1     150965.4     153115.7         0.01    0.000877     0.000865     0.000889
+
+
+
+=======================================
+  Experiment timestamp =  130.18344
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-130.18344-TEST-COPY-INT1-APILooping-FLAT_LOOPING-RW-4096-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           28209.6      28066.1      28139.4         0.00    0.004770     0.004758     0.004782
+
+
+
+=======================================
+  Experiment timestamp =  130.183415
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 2048
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-130.183415-TEST-COPY-INT1-APILooping-FLAT_LOOPING-RW-2048-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           30475.9      30201.2      30313.8         0.00    0.001107     0.001101     0.001111
+
+
+
+=======================================
+  Experiment timestamp =  130.183426
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-130.183426-TEST-COPY-INT1-APILooping-FLAT_LOOPING-RW-4096-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           28126.4      27992.1      28042.9         0.00    0.004786     0.004772     0.004795
+
+
+
+=======================================
+  Experiment timestamp =  130.183439
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 8192
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-130.183439-TEST-COPY-INT1-APILooping-FLAT_LOOPING-RW-8192-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           10206.9      10160.1      10187.5         0.00    0.052699     0.052599     0.052841
+
+
+
+=======================================
+  Experiment timestamp =  130.18359
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16384
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = TEST 
+targerDir              = build-GPU-130.18359-TEST-COPY-INT1-APILooping-FLAT_LOOPING-RW-16384-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            6869.9       6861.6       6866.3         0.00    0.312758     0.312595     0.312973
+
+
+
+=======================================
+  Experiment timestamp =  130.18387
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 8192
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = 160510 
+targerDir              = build-GPU-130.18387-160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-8192-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:           10216.2      10164.0      10188.3         0.00    0.052695     0.052551     0.052821
+
+
+
+=======================================
+  Experiment timestamp =  130.184052
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16384
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = FIXED_STRIDE 
+Make                   = run 
+projectPrefix          = 160510 
+targerDir              = build-GPU-130.184052-160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-16384-FIXED_STRIDE-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:            6870.8       6864.0       6866.8         0.00    0.312734     0.312553     0.312861
+
+
+
+=======================================
+  Experiment timestamp =  130.18591
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 4096
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = 160510 
+targerDir              = build-GPU-130.18591-160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-4096-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          219302.7     217187.5     218540.9         0.00    0.000614     0.000612     0.000618
+
+
+
+=======================================
+  Experiment timestamp =  130.185930
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 8192
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = 160510 
+targerDir              = build-GPU-130.185930-160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-8192-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          222027.2     220916.3     221591.4         0.00    0.002423     0.002418     0.002430
+
+
+
+=======================================
+  Experiment timestamp =  130.19013
+=======================================
+Parameters:
+-----------
+TARGET                 = GPU
+STREAMSFROMTO          = GMEM
+KERNELBENCH            = COPY
+WORD                   = INT
+STREAM_ARRAY_SIZE_DIM1 = 16384
+VECTOR_SIZE            = 1
+LOOPING                = API
+NESTING                = FLAT_LOOPING
+TESTING                = RW
+ACCESS_PATTERN         = CONTIGUOUS 
+Make                   = run 
+projectPrefix          = 160510 
+targerDir              = build-GPU-130.19013-160510-COPY-INT1-APILooping-FLAT_LOOPING-RW-16384-CONTIGUOUS-hw
+logresults             = 
+
+Bandwidth Results:
+-------------------
+Function    Best (MB/s)   Worst (MB/s)   Avg (MB/s)  RelStdev  Avg time     Min time     Max time
+Copy:          226693.2     221323.4     225417.9         0.01    0.009527     0.009473     0.009703
+
+
+

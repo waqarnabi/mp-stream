@@ -1,0 +1,117 @@
+#  ----------------------------------
+#  Compiler generic options
+#  ------------------------------
+
+#CXX = g++48
+	#c++11 requires gcc4.8
+LDLIBS = -l OpenCL
+CXXFLAGS = -std=c++11 -O0 -g -DIntel
+	#-g = produce debeggin info
+
+#  ----------------------------------
+#  Macros for app' parameterizations
+#  ----------------------------------
+CDEFINES =
+KERNEL_DEFS = 
+
+ifdef NO_INTERLEAVING
+KERNEL_DEFS += --no-interleaving default
+endif
+
+#target board/flow [AOCL*/SDACCEL]
+ifdef TARGET
+CDEFINES 		+= -DTARGET=$(TARGET)
+else
+CDEFINES 		+= -DTARGET=CPU
+endif
+
+#streams to/from host or global memory?
+ifdef STREAMSFROMTO
+CDEFINES 		+= -DSTREAMSFROMTO=$(STREAMSFROMTO)
+endif
+
+#which of the 4 benchmark kernel to run?
+ifdef KERNELBENCH
+CDEFINES 		+= -DKERNELBENCH=$(KERNELBENCH)
+endif
+
+# User specified array dimensions
+ifdef STREAM_ARRAY_SIZE_DIM1
+CDEFINES 		+= -DSTREAM_ARRAY_SIZE_DIM1=$(STREAM_ARRAY_SIZE_DIM1)
+endif
+
+# User specified Access Pattern (AP)
+ifdef ACCESS_PATTERN
+CDEFINES += -DACCESS_PATTERN=$(ACCESS_PATTERN)
+endif
+
+ifdef WORD
+CDEFINES += -DWORD=$(WORD)
+endif
+
+ifdef VECTOR_SIZE
+CDEFINES += -DVECTOR_SIZE=$(VECTOR_SIZE)
+endif
+
+ifdef NUM_SIMD_ITEMS
+CDEFINES += -DNUM_SIMD_ITEMS=$(NUM_SIMD_ITEMS)
+endif
+
+ifdef REQ_WORKGROUP_SIZE
+CDEFINES += -DREQ_WORKGROUP_SIZE=$(REQ_WORKGROUP_SIZE)
+endif
+
+ifdef LOOPING
+CDEFINES += -DLOOPING=$(LOOPING)
+endif
+
+ifdef NESTING
+CDEFINES += -DNESTING=$(NESTING)
+endif
+
+ifdef TESTING
+CDEFINES += -DTESTING=$(TESTING)
+endif
+
+ifdef NUM_COMPUTE_UNITS
+CDEFINES += -DNUM_COMPUTE_UNITS=$(NUM_COMPUTE_UNITS)
+endif
+
+ifdef OPENCLCOMPILERSTRING
+CDEFINES += -DOPENCLCOMPILERSTRING=$(OPENCLCOMPILERSTRING)
+endif
+
+ifdef LOGRESULTS
+CDEFINES += -DLOGRESULTS
+endif
+
+#  ----------------------------------
+#  Specify Sources
+#  ------------------------------
+# Since Makefile is copied into the target build folder
+COMMON_SRCS := 
+HOST_SRCS :=  ../../host-all/streamHost-all.cpp
+KERNEL_SRCS = ../../device/streamKernel.cl
+
+SRCS = $(COMMON_SRCS) $(HOST_SRCS)
+
+#  ----------------------------------
+#  Specify EXE
+#  ------------------------------
+HOST_EXE=stream-opencl-$(STREAM_ARRAY_SIZE_DIM1)-$(ACCESS_PATTERN)-$(LOOPING)-$(NESTING)-$(FLOW).exe
+
+#  ----------------------------------
+#  Specify Targets
+#  ------------------------------
+host: $(HOST_EXE)
+all: host
+run : host	
+	./${HOST_EXE} ${KERNEL_SRCS}
+
+
+$(HOST_EXE): $(HOST_SRCS) Makefile
+	$(CXX) $(CXXFLAGS) $(CDEFINES) $< -o $@ $(OPT) $(LDLIBS)
+
+clean:
+	#rm -f basicHost-intel.exe
+	rm -f $(HOST_EXE)

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maxCompilerManager version="2">
+<enginePart internalEngineSubproject="stream_EngineCode" isSrcBin="false" isUseDefaultSelected="false" outputLocation="/stream_EngineCode/bin" projectName="stream"/>
+<cpuPart internalCpuSubproject="stream_CPUCode"/>
+<watchedFiles/>
+</maxCompilerManager>
